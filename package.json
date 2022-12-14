@@ -18,7 +18,7 @@
     "chrome-aws-lambda": "^10.1.0",
     "connect-redis": "^6.1.1",
     "ethers": "^5.5.4",
-    "express": "^4.17.2",
+    "express": "^4.17.3",
     "express-session": "^1.17.2",
     "form-data": "^4.0.0",
     "node-fetch": "^2.6.7",
