@@ -37,6 +37,7 @@ function createAndWritePersistentContractFiles(chainId, contractName, address) {
       // File exists
       const addresses = JSON.parse(data);
       addresses[chainId] = {
+        ...addresses[chainId],
         [contractName]: address,
       };
 

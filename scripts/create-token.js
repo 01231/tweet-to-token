@@ -83,7 +83,7 @@ async function main() {
   const { chainId } = network.config;
   const deployedContractAddress = addresses[chainId][contractName][0];
   const [, tweetOwner] = await ethers.getSigners();
-  const sampleTweetId = BigInt(1478285768493834240); // using BigInt because number is too big
+  const sampleTweetId = BigInt(1478285768493834240); // using BigInt because number is too big TODO: use ethers.BigNumber?
 
   const ttt = await ethers.getContractAt(contractName, deployedContractAddress);
 
